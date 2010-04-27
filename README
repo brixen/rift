@@ -1,0 +1,10 @@
+Ruby Information Flow Tool analyses Ruby code for possible security
+vulnerabilities. It is based on ideas from Cift presented by Joe Hurd
+at a Galois (galois.com) tech talk.
+
+Rift suggests the crack, split, or break in your application's security
+model. Its goal is to identify information flow that may disclose
+confidential information.
+
+Rift is built for Rubinius, leveraging the bytecode compiler which is
+written in Ruby.
